@@ -13,7 +13,7 @@ pipeline {
                 script{
                     sh 'docker build -t task1 .'
                     sh "docker tag task1 ajayneymar5/flm-task"
-                    sh 'docker run -d --name task1 -p 1504:80 ajayneymar5/flm-task'
+                    sh 'docker run -d --name task1 -p 2233:80 ajayneymar5/flm-task'
                 }
             }
         }
